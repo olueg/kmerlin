@@ -1,0 +1,275 @@
+<!DOCTYPE UI><UI version="3.1" stdsetdef="1">
+<class>IdentitySetting</class>
+<widget class="QWidget">
+    <property name="name">
+        <cstring>IdentitySetting</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>789</width>
+            <height>601</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Identity Settings</string>
+    </property>
+    <grid>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <widget class="QLayoutWidget" row="0" column="1">
+            <property name="name">
+                <cstring>layout4</cstring>
+            </property>
+            <vbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>btnNew</cstring>
+                    </property>
+                    <property name="text">
+                        <string>&amp;New ...</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>btnModify</cstring>
+                    </property>
+                    <property name="text">
+                        <string>&amp;Modify...</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>btnRename</cstring>
+                    </property>
+                    <property name="text">
+                        <string>&amp;Rename...</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>btnRemove</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Remo&amp;ve</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>btnDefault</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Set as &amp;Default</string>
+                    </property>
+                </widget>
+            </vbox>
+        </widget>
+        <spacer row="1" column="1" rowspan="2" colspan="1">
+            <property name="name">
+                <cstring>spacer12</cstring>
+            </property>
+            <property name="orientation">
+                <enum>Vertical</enum>
+            </property>
+            <property name="sizeType">
+                <enum>Expanding</enum>
+            </property>
+            <property name="sizeHint">
+                <size>
+                    <width>20</width>
+                    <height>181</height>
+                </size>
+            </property>
+        </spacer>
+        <widget class="QListView" row="0" column="0" rowspan="2" colspan="1">
+            <column>
+                <property name="text">
+                    <string>Identity Name</string>
+                </property>
+                <property name="pixmap">
+                    <pixmap>image0</pixmap>
+                </property>
+                <property name="clickable">
+                    <bool>true</bool>
+                </property>
+                <property name="resizable">
+                    <bool>true</bool>
+                </property>
+            </column>
+            <column>
+                <property name="text">
+                    <string>E-Mail Address</string>
+                </property>
+                <property name="pixmap">
+                    <pixmap>image1</pixmap>
+                </property>
+                <property name="clickable">
+                    <bool>true</bool>
+                </property>
+                <property name="resizable">
+                    <bool>true</bool>
+                </property>
+            </column>
+            <property name="name">
+                <cstring>m_list</cstring>
+            </property>
+            <property name="allColumnsShowFocus">
+                <bool>false</bool>
+            </property>
+            <property name="showSortIndicator">
+                <bool>true</bool>
+            </property>
+            <property name="resizeMode">
+                <enum>AllColumns</enum>
+            </property>
+        </widget>
+        <widget class="QCheckBox" row="2" column="0">
+            <property name="name">
+                <cstring>m_auto</cstring>
+            </property>
+            <property name="enabled">
+                <bool>true</bool>
+            </property>
+            <property name="text">
+                <string>Auto connect on start up</string>
+            </property>
+        </widget>
+        <widget class="QLayoutWidget" row="3" column="0">
+            <property name="name">
+                <cstring>layout14</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>textLabel1</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Set status to away after:</string>
+                    </property>
+                </widget>
+                <widget class="QSpinBox">
+                    <property name="name">
+                        <cstring>m_idle</cstring>
+                    </property>
+                    <property name="maximumSize">
+                        <size>
+                            <width>50</width>
+                            <height>32767</height>
+                        </size>
+                    </property>
+                    <property name="value">
+                        <number>15</number>
+                    </property>
+                    <property name="toolTip" stdset="0">
+                        <string>0 disaable this feature</string>
+                    </property>
+                </widget>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>textLabel2</cstring>
+                    </property>
+                    <property name="enabled">
+                        <bool>true</bool>
+                    </property>
+                    <property name="text">
+                        <string>Minutes</string>
+                    </property>
+                </widget>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer16</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>40</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+            </hbox>
+        </widget>
+    </grid>
+</widget>
+<images>
+    <image name="image0">
+        <data format="XPM.GZ" length="3598">789c4dd6c95223490c06e03b4fe140b78e09b5ab5c6b4ccc817dc766374ccc41b5610c66358be998779f74fe524e53f8f051aa4ca59459e6e78fde7874d4fbf173e56d2ef3bbba574fe4b5f7a3799fcd167ffff3d7af95d528eb2d7f8bac17affeb1b2caebbdba77fcf4d82e41e4407dffb3b49c9923f8545d0f22ef5d38aa13f8c55c26de7b705ce4951fffc45c35fefe333ce84bedfda44e709fb6d4759d7acfe1a4a871ff0e4ed306f78fcd2dd6f3a66e1af8c68cfb5cc05984e7f9526df1b7709e7699cf0ff917513228bd476a5bff3058bc914f11f7535f6c395227197ca82ed4fbc178fe405dc3b409a7a5e63781335b4f0ee769ebf3e5eba523d7bdd8f78f8fd4092cdb70dcc7fce4fb1b154952f9fe11e28bbcc1fae97d69b79a14fde012ce4af483f7e1c2e6bf50979a5f0697918ee7e78fcbb4affd9dc259a4e35dc1b9f5b76fd6f10ed40dee0bc145a4f7d7961e448344fbf30a2785607f6ec05984f58ac66729e6976f388f506ff9526b3de4132ed2aef3f6f51e948342cf475f5deb7ed984d352f7fb3a6cf593059c37a81f21dfb2d0f9f8149616f3710257b1ce3f5e3a89c2fc976a3baf37c1c8278293bed6a783d346ebf108dbfae91a2e75bdbc078bf693cfd5767f576df9eec05506530dd796bfef7722491ff9f1191c9e4f615b2fc770ade3897f5fa47196a2bffc0de78dbe6f6ab3ae670417a9f657d4a5eecf435844f35dc095d9d73f955cf70b0dccba1f3fe0508f855af4fd54c0a11e976a1b7f1fb6fad0a75ae379a8d6fa887fdf6571d694d85f0d5c949acf3d6cf9d0586df5fd822d1ffe546b3e7c02877afbfa6792a5fa7e4ae15cf7373fc265a3fbfb1d76f361bf7cc0b63ed6fb617d11dcd87cfe7d920ff248df8fb7ea06f3d10e5c44fafd71a64ef57d761f8cf7cb585d6a3c9bf5fd760897917a0657b1f6ef456df5d9821bf3837755d97a317fe5d68bfd75a1b6feefa9adff1f6aed0ff9f3590cc27ec8d5998e3f55dbfc73b8b1fa0ed456df63b8b5f1fcfba858e68b7adfc1363e5d05e3fe546df3697c986f5b6debabd41a2fbe3e65e2ea87f19f605b2f6fc2adcdd77ad7227a5e677095a11fc270a8e7b3dac69bc0a13f7d38acdf9f2749c2f36b6a7bfe166ecc6fb03dcfaf6aabef8bdad6ebfb2175d5ea79a8e050df0db5f5bf852d5f6ae0305fa7b6faf8fd5f25d2ea7988e1307ea6b6fa4dccfa7df30d87faf87e544dd5eaf9d8859b4ce3cf83711e6670c8af555bfebedff5f2df2fc47fc1963f1da86dfe67b8b3f1fcf757edbe1df57931ebfa1ed5765efcfba34943bf1ab8b3fef87a2fb3d1f33382c37cb5dae22b75a7e3fbff7f96d968fd7d3d5affe3edcf9b7b5acf3b8bdad6476a1defc4ef8faefbdfbf5f4cee23b8f0178cc115d7dc70cb1ddff284ef78caf7fcc0337ee4278d1177ff995ff895df78ceeffcc19ffcc50b17f3cd6bbc8e5ab8884ddee2cecdb2cd3bbcebae3ddee7033ee4a310d3f1310fdd28233ee1533ee373bee04bbee2315f6bcc0df739e298072e9b8453179371ce0597c4448821a18a875453c3236addd5d12d4de88ea6741f621e784eb5fbcce8919ee8995ee895de684eefbfc7d0077dd2172d784adfb446ebb4419bb445dbb4136276698ff6e980cfe8d05d47744c431ad1099dd2598839a70bba74335dd198aee986fa14514c034a280d3119e554b888d2959fdc577825ee18b993d6c9adc5c844ee644a63b997071aca4c1ee5499ee5455ee52dc4cce59d3af9904ff992857ccb9aaccb866cca966c87981dd9953dd997033994233976d750467222a712729673b9904bb992b1bbaee5267cfa12492c83d57fff5cf90f84de4149</data>
+    </image>
+    <image name="image1">
+        <data format="XPM.GZ" length="2910">789c6dd5594f23471007f0773e8545bda1a8d6737a5a511e969b5d2e2f7b00511e6a7ac660c09ce68cf2dd33d3ff7f1b148541483f577557f5e1e1d3cae0f8706fb0f269e9616ef3a91ff873bb1fac348fb3d9eb9f7ffdf1f7d272520efadf3c1ba4cbbf2d2d8fe7033fd8bfb96e7be86b0719869fdef2b270d5db66748eb84d1746fc223ac1f85dba4a425c1fe132c92d780e8f8acc056f45e749f0035c2529e263ba61fe3dec9234d4d3343ac3f83bdab1fe4634e3b774c378025b1cbf4e17b0f885517f8d36f67710cdf17b74cbf8309ae34fe13ae5fc356d88cb4d34f7eb84e678c17e55c910eb17ec57950eb17f72445705c66fc28bfd3b845df431bce87f1feefa43dcd16d112e8ffee89d0cfb279c7f03a715fbfb4e7bd4976f709673bd9b34fb930bb86ae8cbe02a1b62fd52d1396c3e9af9cf70e1aa2cf457c2a386fb87fa5555703f427fe9308bfd7d810b6779f0195c26a33a789b76ce073fc12e71c89fd305e30d6c09f64bd6e0da582fec5fea32cff3fa0a9709ebefd04d1dacabb0f17e58d89f2cc9ab5158af9cd21ef5ec3cba44bd47d8ccd01fe375ca7e57615f32dfe896f387f743e68a82fbfb4237b05df5ce93c2317f2fba0afba7e7b04bb8ff13bae17d0aef97dc8a86fbede051c1f56fc3aee07c67b42b31be858de72be1fd50a471bc8c6157b478df4d69c77a3f83ad70186f35ec12df84fc0b3aae2783ade5f9ffea5da625f7430bd815be08f129eccbb60cf150afb411e7932bb84a703ed6c2dd78d4afe026455cc37d1dd5963498ff16f63c5f0ddf8feecbc8fb636770170ef3c9095ca79349f088b609fabb817d8afba8bb7489f52af3bdd5982fbc2faaba4ed18f5ed225e2fa14cdfdb886db92e713de3fced72deacb06ec4bf467461bfbfd0cb76513ce53b4b7e58bf8106e385e0e68e37ebd057b9fe23ec884e678539afde811dca4a8a74d34c71f4663bc86feeaae3ece5b4a3ace2f74cbfc707fea26f6a716cdf81bcd7c9bc06d3cbf19cdf56a789ff862315ee858ef0a5e8c4fe8383e9c8f7f9fbfa54b7e7f9ea3195fa7e3fda917463cfc3f6e8a68dda1d98f083ce1fc12be3f4d1be39ac393d84f70573d3a7c1fbbec582fa527f078de3f2a7c2cfcadd5e3f3f13ce6749f36daea44cff45ca77aa1977aa5b3ffe45ceb8ddeea9ddeeb83cef5519ff4595ff4f53d47dff4b3aeea9aaeeb866eea966eeb8e7e410672ba3a5f7557f7745f0ff450c7fa4d8fbacfbeeb0ffdf921e7971eeb899eea50134d35d35c0b2d75a4953ae474cb1031a9a5d653f1d2482b1339937399eaba5c30e752ae6426d772d3cdb42eb77227f7f22073799427798e3dcb8bbcca9b7c9655599375d9904dd9926dd9912ff2f57ded5ddeaeecc9be1cc8a18ce55bbf263992ef1ff7a7fbe487fc945f722c27dd3ca77d8ebe7edc9f2e632889a492492e85943292ea3d6b91e34c35efbabd33e9fe6fd5e631c7c79cf1dc1aeb2e55f79cd9b94dfb19f07ccce9b22eecd2ae6c86c8ffe760ee784aefcff23fbf2ffd0b4761980a</data>
+    </image>
+</images>
+<connections>
+    <connection>
+        <sender>btnNew</sender>
+        <signal>clicked()</signal>
+        <receiver>IdentitySetting</receiver>
+        <slot>slotNew()</slot>
+    </connection>
+    <connection>
+        <sender>m_list</sender>
+        <signal>selectionChanged()</signal>
+        <receiver>IdentitySetting</receiver>
+        <slot>slotSelectionChanged()</slot>
+    </connection>
+    <connection>
+        <sender>btnModify</sender>
+        <signal>clicked()</signal>
+        <receiver>IdentitySetting</receiver>
+        <slot>slotModify()</slot>
+    </connection>
+    <connection>
+        <sender>btnRename</sender>
+        <signal>clicked()</signal>
+        <receiver>IdentitySetting</receiver>
+        <slot>slotRename()</slot>
+    </connection>
+    <connection>
+        <sender>btnRemove</sender>
+        <signal>clicked()</signal>
+        <receiver>IdentitySetting</receiver>
+        <slot>slotRemove()</slot>
+    </connection>
+    <connection>
+        <sender>btnDefault</sender>
+        <signal>clicked()</signal>
+        <receiver>IdentitySetting</receiver>
+        <slot>slotDefault()</slot>
+    </connection>
+</connections>
+<includes>
+    <include location="local" impldecl="in implementation">identitysetting.ui.h</include>
+</includes>
+<signals>
+    <signal>profileChanged()</signal>
+</signals>
+<slots>
+    <slot>slotSelectionChanged()</slot>
+    <slot>slotNew()</slot>
+    <slot>slotModify()</slot>
+    <slot>slotRename()</slot>
+    <slot>slotRemove()</slot>
+    <slot>slotDefault()</slot>
+</slots>
+<functions>
+    <function>init()</function>
+    <function specifier="non virtual">destroy()</function>
+</functions>
+<layoutdefaults spacing="6" margin="11"/>
+<includehints>
+    <includehint>qwidget.h</includehint>
+</includehints>
+</UI>

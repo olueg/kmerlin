@@ -1,0 +1,16 @@
+Begin3
+Title:          KMerlin -- Some description
+Version:        1.3Beta1
+Entered-date:   
+Description:    
+Keywords:       KDE2 Qt
+Author:         Olaf Lueg <olueg@olsd.de>
+Maintained-by:  Olaf Lueg <olueg@olsd.de>
+Home-page:      
+Alternate-site: 
+Primary-site:   ftp://ftp.kde.org/pub/kde/unstable/apps/utils
+                xxxxxx  kmerlin-1.3Beta1.tar.gz
+                xxx     kmerlin-1.3Beta1.lsm
+Platform:       Linux. Needs KDE 2.x
+Copying-policy: GPL
+End

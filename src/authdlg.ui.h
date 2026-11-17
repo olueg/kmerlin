@@ -1,0 +1,20 @@
+/****************************************************************************
+** ui.h extension file, included from the uic-generated form implementation.
+**
+** If you wish to add, delete or rename functions or slots use
+** Qt Designer which will update this file, preserving your code. Create an
+** init() function in place of a constructor, and a destroy() function in
+** place of a destructor.
+*****************************************************************************/
+#include <qpixmap.h>
+#include <kiconloader.h>
+#include <kglobal.h>
+#include <kstddirs.h>
+
+QPixmap AuthDlg::getBgPixmap()
+{
+    KStandardDirs dir;
+    return QPixmap(dir.findResource("data","kmerlin/pics/top.png") );
+}
+
+

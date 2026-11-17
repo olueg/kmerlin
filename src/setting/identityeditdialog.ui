@@ -1,0 +1,166 @@
+<!DOCTYPE UI><UI version="3.1" stdsetdef="1">
+<class>IdentityEditDialog</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>IdentityEditDialog</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>347</width>
+            <height>197</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Edit Identity</string>
+    </property>
+    <property name="icon">
+        <pixmap>image0</pixmap>
+    </property>
+    <grid>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <widget class="QTabWidget" row="0" column="0" rowspan="1" colspan="3">
+            <property name="name">
+                <cstring>tabWidget6</cstring>
+            </property>
+            <widget class="QWidget">
+                <property name="name">
+                    <cstring>tab</cstring>
+                </property>
+                <attribute name="title">
+                    <string>&amp;General</string>
+                </attribute>
+                <grid>
+                    <property name="name">
+                        <cstring>unnamed</cstring>
+                    </property>
+                    <widget class="QLabel" row="0" column="0">
+                        <property name="name">
+                            <cstring>textLabel1</cstring>
+                        </property>
+                        <property name="text">
+                            <string>Your login:</string>
+                        </property>
+                    </widget>
+                    <widget class="QLineEdit" row="0" column="1">
+                        <property name="name">
+                            <cstring>m_login</cstring>
+                        </property>
+                        <property name="minimumSize">
+                            <size>
+                                <width>200</width>
+                                <height>0</height>
+                            </size>
+                        </property>
+                        <property name="edited">
+                            <bool>true</bool>
+                        </property>
+                    </widget>
+                    <widget class="QLineEdit" row="1" column="1">
+                        <property name="name">
+                            <cstring>m_password</cstring>
+                        </property>
+                        <property name="echoMode">
+                            <enum>Password</enum>
+                        </property>
+                    </widget>
+                    <widget class="QLabel" row="1" column="0">
+                        <property name="name">
+                            <cstring>textLabel2</cstring>
+                        </property>
+                        <property name="text">
+                            <string>Password:</string>
+                        </property>
+                    </widget>
+                    <widget class="QLineEdit" row="2" column="1">
+                        <property name="name">
+                            <cstring>m_nick</cstring>
+                        </property>
+                    </widget>
+                    <widget class="QLabel" row="2" column="0">
+                        <property name="name">
+                            <cstring>textLabel3</cstring>
+                        </property>
+                        <property name="text">
+                            <string>Your nick name:</string>
+                        </property>
+                    </widget>
+                    <spacer row="3" column="1">
+                        <property name="name">
+                            <cstring>spacer19</cstring>
+                        </property>
+                        <property name="orientation">
+                            <enum>Vertical</enum>
+                        </property>
+                        <property name="sizeType">
+                            <enum>Expanding</enum>
+                        </property>
+                        <property name="sizeHint">
+                            <size>
+                                <width>20</width>
+                                <height>50</height>
+                            </size>
+                        </property>
+                    </spacer>
+                </grid>
+            </widget>
+        </widget>
+        <spacer row="1" column="0">
+            <property name="name">
+                <cstring>spacer34</cstring>
+            </property>
+            <property name="orientation">
+                <enum>Horizontal</enum>
+            </property>
+            <property name="sizeType">
+                <enum>Expanding</enum>
+            </property>
+            <property name="sizeHint">
+                <size>
+                    <width>111</width>
+                    <height>20</height>
+                </size>
+            </property>
+        </spacer>
+        <widget class="QPushButton" row="1" column="1">
+            <property name="name">
+                <cstring>pushButton15</cstring>
+            </property>
+            <property name="text">
+                <string>&amp;Ok</string>
+            </property>
+        </widget>
+        <widget class="QPushButton" row="1" column="2">
+            <property name="name">
+                <cstring>pushButton14</cstring>
+            </property>
+            <property name="text">
+                <string>&amp;Cancel</string>
+            </property>
+        </widget>
+    </grid>
+</widget>
+<images>
+    <image name="image0">
+        <data format="XPM.GZ" length="2718">789c5dd5d952eb381006e07b9e2245df51537d625b76ec9a9a8bb0847d093b999a0b59b6d94e5892b09e9a771fb9fb97e10c068a2fdd6ac96d59fc58e95d1eedf7567e2ccd177671eb7aeec6ce7a2bd5cb74faf1f73f7ffd5a5a8eb25efb9d44bd78f98fa5e5f1a2e77a078f0f750b3ef7a0be7c892f61a3a6529c7be712df87733571eba81f9948c7af8af3f692f85a70acf5087688d7ade37ee4103f54b79778d6b9104fc545177fee2c71ae618378d359e3617c0e6fc00ef5e3d6491463bd7cd059f3cf609744e29feaa40fbf8a8bc4249abf06e76a7a6a6da2c4c136d8c8781a886da84fb9da8fd7fa95da1863c5f7b0535ba997c6617e5a551b976afe8b3aeda7b219b88053f84d6cbd35ff102ed4569e5f1677fd4ad426dccf8b3a4b33cd97fd91d9ae9f57eaacd038c9fc83c4a07f74a04e0bf4ef4e3d880689f8024ee17571e95d8a1d5ca8e91aaee0ac759e74fd4fd526ec1f7850e55a7f4b9d637ebae8acf395c19a4fc3ce1adf86b13e32e2328b30ffb9baab37830b8cbf852b35c97e2b4c1115462cef63e1f24af70f5b7591164ee20bb8803f83ad8ce707b8d2387f04232eef8f353652d3a3d8d9d46a3ec1564d73b8863f824b1dffdab91247ad4b93a6d8dfd7ea2e7f435dc6781e7bc188ef88ab32c3faee83b53e1f05bb54e2dbb045fc060eeb19b576a98bf1bcf682b5dfbc13acf3f33c18f5df3a6bbd5d3843bf86c1c897fde5fcfce8f742ede33abe822d7c07d7f07b7025f5585ca5c1f4a0ae62c4c77058cf7330f2e57cabea41a5e7015daa6dadef3f6daa9dc5feccd595ade4ff09ddc0b59ae57ca8b30acf831c5cd799c427ea3a86079db59e3cbfdad7c77994a96bac974db0e6f3266c516fd459ebddc235dc6fdd644581f707aeeb46c77faa9b584da7e2a6c07ea589bab438cfaed42ec37970025b9cd7b1ba8ee1d3609c2f6338cbb4ffc770adf519f59a0cebdd0d6e1a31f21b8bf3fc3118f1086e707eac07e37d780ad6fcf1225c4c6cb9f497e38aebf0e9f71c6ef89a6ffcef5bbee37bfec9d3ffe7f80a0ffcc84ffccc339ef3825ff8f5f71cffe99bff79f259effcc19ffeaf21aff2da6f39ebbce1671af1266ff136eff02eeff13ebff2c1b79c353fea908f78ccc77cc2a7beca199ffb9c69c8e10b9f71c9573ce13e471c73c286535f67ca679ae363533f661feb79e48c073e3be7829888cff4ffb7ffbbf4776b7c9536679747e4a8f2f737f5f5a7925353e3b3aee9860dddfa7b1af184eee89e7eb69da4e9b73597fcdc66f96b420f3ca7479ed1133d7fdd17cd7ce5a18fe59cfbdf439ad382aeb58b5f7da6177aa5377af71d9ed3077dd29056e95b0f39a275daa0116dd2166df31eedd02eedd13e1dd061c8a1231ad3319dd0299dd1395dd0255dd184fa147dad87624ac8504a190dfc5d12e55458b6642df91db2fcef9f4bff01501367d2</data>
+    </image>
+</images>
+<connections>
+    <connection>
+        <sender>pushButton15</sender>
+        <signal>clicked()</signal>
+        <receiver>IdentityEditDialog</receiver>
+        <slot>accept()</slot>
+    </connection>
+    <connection>
+        <sender>pushButton14</sender>
+        <signal>clicked()</signal>
+        <receiver>IdentityEditDialog</receiver>
+        <slot>reject()</slot>
+    </connection>
+</connections>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

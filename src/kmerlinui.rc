@@ -1,0 +1,46 @@
+<!DOCTYPE kpartgui SYSTEM "kpartgui.dtd">
+<kpartgui name="kmerlin" version="7">
+	<MenuBar>
+		<Menu name="file">
+			<text>&amp;File</text>
+			<Action name="addToPanel"/>
+			<Action name="fileStatus"/>
+			<Separator/>
+			<Action name="disconnect"/>
+			<action name="cancel"/>
+			<Separator/>
+			<Action name="fileImport"/>
+			<Action name="fileExport"/>
+			<Separator/>
+			<Action name="mail"/>
+			<Action name="filePrint"/>
+			<Separator/>
+			<Action name="fileHide"/>
+		</Menu>
+		<Menu name="View">
+			<text>&amp;View</text>
+			<Action name="viewOnline"/>
+			<Action name="viewGroup"/>
+			<Separator/>
+			<Action name="viewEvent"/>
+		</Menu>
+		<Menu name="Extra">
+			<text>&amp;Extra</text>
+			<Action name="editNick"/>
+			<Separator/>
+			<Action name="addContact"/>
+			<Action name="addGroup"/>
+			<Separator/>
+			<Action name="editContacts"/>
+			<Action name="editGroups"/>
+		</Menu>
+		<Menu name="settings">
+			<Action name="kmerlin_configure_notifications"/>
+		</Menu>
+	</MenuBar>
+	<ToolBar noMerge="1" name="mainToolBar" fullWidth="true" >
+		<Action name="mail"/>
+		<Action name="addContact"/>
+		<Action name="fileStatus"/>
+	</ToolBar>
+</kpartgui>

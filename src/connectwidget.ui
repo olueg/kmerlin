@@ -1,0 +1,30 @@
+<!DOCTYPE UI><UI version="3.1" stdsetdef="1">
+<class>ConnectWidget</class>
+<widget class="QWidget">
+    <property name="name">
+        <cstring>ConnectWidget</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>307</width>
+            <height>256</height>
+        </rect>
+    </property>
+    <property name="paletteBackgroundColor">
+        <color>
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+        </color>
+    </property>
+    <property name="caption">
+        <string>Form1</string>
+    </property>
+</widget>
+<layoutdefaults spacing="6" margin="11"/>
+<includehints>
+    <includehint>qwidget.h</includehint>
+</includehints>
+</UI>

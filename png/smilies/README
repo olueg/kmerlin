@@ -1,0 +1,15 @@
+MSN 4.6 Smileys for KMerlin 0.3.2
+
+Copy all *.png files and the smileyrc file to the KMerlin smilies directory
+Example:
+(SUSE)
+su -c "cp *.png /opt/kde2/share/apps/kmerlin/smilies"
+su -c "cp smileyrc /opt/kde2/share/apps/kmerlin/smilies"
+
+(RH and Mandrake)
+su -c "cp *.png /usr/share/apps/kmerlin/smilies"
+su -c "cp smileyrc /usr/share/apps/kmerlin/smilies"
+
+
+Have fun!
+

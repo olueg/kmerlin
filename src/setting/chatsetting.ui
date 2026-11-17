@@ -1,0 +1,229 @@
+<!DOCTYPE UI><UI version="3.1" stdsetdef="1">
+<class>ChatSetting</class>
+<author>Olaf Lueg</author>
+<widget class="QWidget">
+    <property name="name">
+        <cstring>ChatSetting</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>457</width>
+            <height>326</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Chat Setting</string>
+    </property>
+    <grid>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <widget class="QLayoutWidget" row="0" column="0">
+            <property name="name">
+                <cstring>layout2</cstring>
+            </property>
+            <grid>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="KColorButton" row="1" column="1">
+                    <property name="name">
+                        <cstring>m_color</cstring>
+                    </property>
+                    <property name="sizePolicy">
+                        <sizepolicy>
+                            <hsizetype>1</hsizetype>
+                            <vsizetype>0</vsizetype>
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                        </sizepolicy>
+                    </property>
+                    <property name="text">
+                        <string></string>
+                    </property>
+                </widget>
+                <widget class="KFontCombo" row="0" column="1">
+                    <property name="name">
+                        <cstring>m_font</cstring>
+                    </property>
+                </widget>
+                <widget class="QCheckBox" row="0" column="2">
+                    <property name="name">
+                        <cstring>m_defaultFont</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Set as default font</string>
+                    </property>
+                </widget>
+                <widget class="QLabel" row="1" column="0">
+                    <property name="name">
+                        <cstring>textLabel4</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Color:</string>
+                    </property>
+                </widget>
+                <spacer row="0" column="3">
+                    <property name="name">
+                        <cstring>spacer2</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>131</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QLabel" row="0" column="0">
+                    <property name="name">
+                        <cstring>textLabel3</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Font:</string>
+                    </property>
+                </widget>
+            </grid>
+        </widget>
+        <spacer row="2" column="0">
+            <property name="name">
+                <cstring>spacer3</cstring>
+            </property>
+            <property name="orientation">
+                <enum>Vertical</enum>
+            </property>
+            <property name="sizeType">
+                <enum>Expanding</enum>
+            </property>
+            <property name="sizeHint">
+                <size>
+                    <width>20</width>
+                    <height>140</height>
+                </size>
+            </property>
+        </spacer>
+        <widget class="QLayoutWidget" row="1" column="0">
+            <property name="name">
+                <cstring>layout3</cstring>
+            </property>
+            <grid>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QLineEdit" row="2" column="1" rowspan="1" colspan="3">
+                    <property name="name">
+                        <cstring>m_logFile</cstring>
+                    </property>
+                    <property name="enabled">
+                        <bool>true</bool>
+                    </property>
+                    <property name="maximumSize">
+                        <size>
+                            <width>200</width>
+                            <height>32767</height>
+                        </size>
+                    </property>
+                    <property name="text">
+                        <string>%E.log</string>
+                    </property>
+                    <property name="toolTip" stdset="0">
+                        <string>Valid placeholders are: &lt;br&gt;%E = E-Mail Address&lt;br&gt;%N = Nick name&lt;br&gt;%T = Time</string>
+                    </property>
+                </widget>
+                <spacer row="0" column="3">
+                    <property name="name">
+                        <cstring>spacer4_2</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>141</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QLabel" row="0" column="2">
+                    <property name="name">
+                        <cstring>PixmapLabel1</cstring>
+                    </property>
+                    <property name="pixmap">
+                        <pixmap>image0</pixmap>
+                    </property>
+                    <property name="scaledContents">
+                        <bool>false</bool>
+                    </property>
+                </widget>
+                <widget class="QLabel" row="2" column="0">
+                    <property name="name">
+                        <cstring>textLabel6</cstring>
+                    </property>
+                    <property name="enabled">
+                        <bool>true</bool>
+                    </property>
+                    <property name="text">
+                        <string>Filename:</string>
+                    </property>
+                </widget>
+                <widget class="QCheckBox" row="0" column="0" rowspan="1" colspan="2">
+                    <property name="name">
+                        <cstring>m_emotions</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Enable emotion icons</string>
+                    </property>
+                    <property name="checked">
+                        <bool>false</bool>
+                    </property>
+                </widget>
+                <widget class="QCheckBox" row="1" column="0" rowspan="1" colspan="4">
+                    <property name="name">
+                        <cstring>m_logging</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Enable logging</string>
+                    </property>
+                </widget>
+            </grid>
+        </widget>
+    </grid>
+</widget>
+<images>
+    <image name="image0">
+        <data format="XPM.GZ" length="3182">789c7595594fe34810c7dff91411f5865635b1633bb656fb10ae7066c27dacf6a17d841c04088473b4df7ddb55fff2c08e86c64a7eaea3ebeaceb7b5d6e5f0b0b5f66de569e99693a2558cdd636bad7c9ecfdffffee7af1f2bab61bbe5ff83286885ab7facac1e2d5b456b707f57d5c0471ea82d7fc24e38ad97705973d0f6d62acf85d37ad54ce39a432f87fd5c380b0a653aa8b9938529e4957227ea64c249cd51d0c1fe74088e4291d3a6b00bcddf9bb2d7d7f862b0ed7f5b731c1ad323d8f627e5b81d4b3158e28f5d64f917ca71163bb1177f491899bf7d70a1f5a085b08b2cbed39abb796cf9dc34acf59a8133ecf7082e43d5977cd24e5c22bf3be5a48c241ebe54f6e5ef087784bd3dfc4d949300bc0e8ed1bf577086fe95ca5ddf60910f6bcea224867d06467c7ca1dc0dd49e4f8cb55f7c0dceb4bfc460c44fb9721a24527f2ac071a2f93d2b674116895cfa951509ea4551cdceef87f8a660cb6f5fd9c5b9daef0917dd12f11e2bbbd815c261cdb98f17fedf95d30cf33750ceac3e2fca7952c4c25b609797c24b6395d3997099669817a79cc5e8a79c8f222e42f8eb0a9729fa4989721623fe27e5a22ae5fc92701967a8076d35acfddd00a3dfbcadec029cbf48b94ce04fce675965e83f4d945d8c7a48ffabc405a8f70cec304fe7c61da917c9bc5595b3782ec1365f87ca5552e97d24fd1a79ffd87f17ecc0cfca4588f3fb064e749ef84a79148e12d1977e8c4666cf037005ee29e721fc7f34acf55a8013e89f37acf2c018fd3d6958e50f608b3f6b58eb3134867db76191bbd218f7c3086cf1a70dab3e1ba31fdbc6e85f68acfde133e502f9d27763c49336acfec918e7bd6f8c7e1f1beb797113b0d567deb0fa73c66aef66c66a4f470deb796983513fbe31c63cde37acf9f48c91ff9d31e6dff2add4de150dabfd9531eab563acf1b8b17219a23f0fc63a9fb4638cf93c0527aaefa6c6c8bf6a58e3db35463dee8df5bea48e71577e0f286838177fa84f897ce9c558e5d4374e95afc115e46d63c82dde4aef67972b57097e2fd7c14ee5fc0e863de37cf903a9f7ef86f16824fe30df7e07bd0f1bc6fdb069acfa47cbcf8b891de75c70c9d557c9575d1ef10d8f79c2539ef12dcff9ee77ba7ccf0fbce0477ee2253ff30bbff21bbff3c7afba5e73c13d5ee70ddec4dae26deef30eef7ed515cd05eff1bed739f0cfa1684ffcbb81dfedfea72e7f179f3d1e8ac6111ffba7fe7682f70b3e6d74cff85cde5c88c6255ff96ad4dfaebdcf9e972db8adba1c70c81dc96b8848237cbefa770f3e9298cf1add9813ee72ea63cb8889c8514e059554d1887b7443639ad054efd2da27cde8960734a73b2fbda7077e10bd053dd2132de9995ea02b31d12bc7f446eff4413d5aa70ddaf4feb6c4cf36f56947ef64af3ba873a311edd21eedd301cfe99006e4eb43433af29ac7dcd7fb57347bb50d9dd2199dd3055dd2155d539ba65e2fa0d0dbe85909a5e2b56f5f4d8a28e6574a8403eafaccbd8cd24ff5ed61f9ee51e6d811f77d9443bfbab4ed9ccb4dd715d29f812c89dde7d775a5d7aed709f53ecf83abd04d5d88df67704e19cddde8eb9cb91bdf0b8bfbe7b3d0b9f975d6ddd84d1a8b059fb9899bfeee5ce8a2ed7a7f37fbfffbd57fff5cf90f7af1e1c2</data>
+    </image>
+</images>
+<connections>
+    <connection>
+        <sender>m_logging</sender>
+        <signal>toggled(bool)</signal>
+        <receiver>m_logFile</receiver>
+        <slot>setEnabled(bool)</slot>
+    </connection>
+</connections>
+<includes>
+    <include location="local" impldecl="in implementation">chatsetting.ui.h</include>
+</includes>
+<functions>
+    <function>init()</function>
+    <function>destroy()</function>
+    <function specifier="non virtual">save()</function>
+</functions>
+<layoutdefaults spacing="6" margin="6"/>
+<includehints>
+    <includehint>kcolorbutton.h</includehint>
+    <includehint>kfontcombo.h</includehint>
+    <includehint>klineedit.h</includehint>
+</includehints>
+</UI>

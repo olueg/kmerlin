@@ -1,0 +1,16 @@
+Version 1.4.1
+	Bugfix release
+		Fixed Bugs:
+			Contacts shown in all groups
+			New Contacts does'nt authenticate
+			Blocked contacts shown as offline
+			some strange bugs fixed.
+
+
+Version 1.3Beta1
+	Tested with KDE3.1 and Qt3.1.1
+	This release is almost rewritten, 
+	- New GUI
+	- New preferences 
+	- New Notification system
+	- Animated System tray icons

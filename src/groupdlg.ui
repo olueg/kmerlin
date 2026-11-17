@@ -1,0 +1,173 @@
+<!DOCTYPE UI><UI version="3.1" stdsetdef="1">
+<class>GroupDlg</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>GroupDlg</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>400</width>
+            <height>300</height>
+        </rect>
+    </property>
+    <property name="minimumSize">
+        <size>
+            <width>400</width>
+            <height>300</height>
+        </size>
+    </property>
+    <property name="maximumSize">
+        <size>
+            <width>400</width>
+            <height>300</height>
+        </size>
+    </property>
+    <property name="paletteBackgroundPixmap">
+        <pixmap></pixmap>
+    </property>
+    <property name="caption">
+        <string>Group</string>
+    </property>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>m_info</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>30</x>
+                <y>170</y>
+                <width>340</width>
+                <height>20</height>
+            </rect>
+        </property>
+        <property name="paletteForegroundColor">
+            <color>
+                <red>255</red>
+                <green>255</green>
+                <blue>255</blue>
+            </color>
+        </property>
+        <property name="backgroundOrigin">
+            <enum>AncestorOrigin</enum>
+        </property>
+        <property name="text">
+            <string>Type in the new group name</string>
+        </property>
+    </widget>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>m_group</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>180</x>
+                <y>140</y>
+                <width>200</width>
+                <height>20</height>
+            </rect>
+        </property>
+        <property name="paletteForegroundColor">
+            <color>
+                <red>170</red>
+                <green>0</green>
+                <blue>0</blue>
+            </color>
+        </property>
+        <property name="backgroundOrigin">
+            <enum>AncestorOrigin</enum>
+        </property>
+        <property name="text">
+            <string></string>
+        </property>
+        <property name="alignment">
+            <set>WordBreak|AlignCenter</set>
+        </property>
+    </widget>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>m_caption</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>190</x>
+                <y>120</y>
+                <width>190</width>
+                <height>24</height>
+            </rect>
+        </property>
+        <property name="paletteForegroundColor">
+            <color>
+                <red>255</red>
+                <green>255</green>
+                <blue>255</blue>
+            </color>
+        </property>
+        <property name="backgroundOrigin">
+            <enum>AncestorOrigin</enum>
+        </property>
+        <property name="text">
+            <string>Rename Group</string>
+        </property>
+        <property name="alignment">
+            <set>WordBreak|AlignCenter</set>
+        </property>
+    </widget>
+    <widget class="QLineEdit">
+        <property name="name">
+            <cstring>m_text</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>30</x>
+                <y>200</y>
+                <width>340</width>
+                <height>22</height>
+            </rect>
+        </property>
+    </widget>
+    <widget class="QPushButton">
+        <property name="name">
+            <cstring>btnOk</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>150</x>
+                <y>260</y>
+                <width>112</width>
+                <height>30</height>
+            </rect>
+        </property>
+        <property name="autoMask">
+            <bool>true</bool>
+        </property>
+        <property name="text">
+            <string>&amp;Ok</string>
+        </property>
+        <property name="default">
+            <bool>true</bool>
+        </property>
+    </widget>
+</widget>
+<connections>
+    <connection>
+        <sender>btnOk</sender>
+        <signal>clicked()</signal>
+        <receiver>GroupDlg</receiver>
+        <slot>accept()</slot>
+    </connection>
+</connections>
+<tabstops>
+    <tabstop>m_text</tabstop>
+    <tabstop>btnOk</tabstop>
+</tabstops>
+<includes>
+    <include location="local" impldecl="in implementation">groupdlg.ui.h</include>
+</includes>
+<functions>
+    <function returnType="QPixmap">getBgPixmap()</function>
+</functions>
+<pixmapfunction>getBgPixmap</pixmapfunction>
+<layoutdefaults spacing="0" margin="0"/>
+</UI>

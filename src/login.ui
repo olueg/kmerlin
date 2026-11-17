@@ -1,0 +1,410 @@
+<!DOCTYPE UI><UI version="3.1" stdsetdef="1">
+<class>Login</class>
+<widget class="QWidget">
+    <property name="name">
+        <cstring>Login</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>400</width>
+            <height>300</height>
+        </rect>
+    </property>
+    <property name="maximumSize">
+        <size>
+            <width>400</width>
+            <height>300</height>
+        </size>
+    </property>
+    <property name="caption">
+        <string>Login</string>
+    </property>
+    <grid>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <spacer row="1" column="0">
+            <property name="name">
+                <cstring>spacer1</cstring>
+            </property>
+            <property name="orientation">
+                <enum>Vertical</enum>
+            </property>
+            <property name="sizeType">
+                <enum>Expanding</enum>
+            </property>
+            <property name="sizeHint">
+                <size>
+                    <width>20</width>
+                    <height>16</height>
+                </size>
+            </property>
+        </spacer>
+        <widget class="QFrame" row="0" column="0">
+            <property name="name">
+                <cstring>m_frame</cstring>
+            </property>
+            <property name="sizePolicy">
+                <sizepolicy>
+                    <hsizetype>4</hsizetype>
+                    <vsizetype>4</vsizetype>
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                </sizepolicy>
+            </property>
+            <property name="minimumSize">
+                <size>
+                    <width>400</width>
+                    <height>300</height>
+                </size>
+            </property>
+            <property name="maximumSize">
+                <size>
+                    <width>400</width>
+                    <height>300</height>
+                </size>
+            </property>
+            <property name="paletteBackgroundPixmap">
+                <pixmap></pixmap>
+            </property>
+            <property name="backgroundOrigin">
+                <enum>AncestorOrigin</enum>
+            </property>
+            <property name="frameShape">
+                <enum>StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+                <enum>Raised</enum>
+            </property>
+            <property name="lineWidth">
+                <number>0</number>
+            </property>
+            <widget class="QLabel">
+                <property name="name">
+                    <cstring>textLabel1</cstring>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>183</x>
+                        <y>117</y>
+                        <width>200</width>
+                        <height>21</height>
+                    </rect>
+                </property>
+                <property name="maximumSize">
+                    <size>
+                        <width>200</width>
+                        <height>32767</height>
+                    </size>
+                </property>
+                <property name="paletteForegroundColor">
+                    <color>
+                        <red>255</red>
+                        <green>255</green>
+                        <blue>255</blue>
+                    </color>
+                </property>
+                <property name="backgroundOrigin">
+                    <enum>AncestorOrigin</enum>
+                </property>
+                <property name="text">
+                    <string>&lt;b&gt;Choose Profile&lt;/b&gt;</string>
+                </property>
+            </widget>
+            <widget class="QComboBox">
+                <property name="name">
+                    <cstring>m_profile</cstring>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>180</x>
+                        <y>139</y>
+                        <width>200</width>
+                        <height>30</height>
+                    </rect>
+                </property>
+                <property name="maximumSize">
+                    <size>
+                        <width>200</width>
+                        <height>32767</height>
+                    </size>
+                </property>
+                <property name="autoMask">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QLineEdit">
+                <property name="name">
+                    <cstring>m_login</cstring>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>180</x>
+                        <y>179</y>
+                        <width>200</width>
+                        <height>22</height>
+                    </rect>
+                </property>
+                <property name="maximumSize">
+                    <size>
+                        <width>200</width>
+                        <height>32767</height>
+                    </size>
+                </property>
+            </widget>
+            <widget class="QLineEdit">
+                <property name="name">
+                    <cstring>m_password</cstring>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>180</x>
+                        <y>241</y>
+                        <width>200</width>
+                        <height>22</height>
+                    </rect>
+                </property>
+                <property name="maximumSize">
+                    <size>
+                        <width>200</width>
+                        <height>32767</height>
+                    </size>
+                </property>
+                <property name="echoMode">
+                    <enum>Password</enum>
+                </property>
+            </widget>
+            <widget class="QLabel">
+                <property name="name">
+                    <cstring>textLabel2</cstring>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>180</y>
+                        <width>150</width>
+                        <height>21</height>
+                    </rect>
+                </property>
+                <property name="paletteForegroundColor">
+                    <color>
+                        <red>255</red>
+                        <green>255</green>
+                        <blue>255</blue>
+                    </color>
+                </property>
+                <property name="backgroundOrigin">
+                    <enum>AncestorOrigin</enum>
+                </property>
+                <property name="text">
+                    <string>&lt;b&gt;Login:&lt;/b&gt;</string>
+                </property>
+                <property name="alignment">
+                    <set>WordBreak|AlignVCenter|AlignRight</set>
+                </property>
+            </widget>
+            <widget class="QLabel">
+                <property name="name">
+                    <cstring>textLabel3</cstring>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>240</y>
+                        <width>150</width>
+                        <height>21</height>
+                    </rect>
+                </property>
+                <property name="paletteForegroundColor">
+                    <color>
+                        <red>255</red>
+                        <green>255</green>
+                        <blue>255</blue>
+                    </color>
+                </property>
+                <property name="backgroundOrigin">
+                    <enum>AncestorOrigin</enum>
+                </property>
+                <property name="text">
+                    <string>&lt;b&gt;Password:&lt;/b&gt;</string>
+                </property>
+                <property name="alignment">
+                    <set>WordBreak|AlignVCenter|AlignRight</set>
+                </property>
+            </widget>
+            <widget class="QLabel">
+                <property name="name">
+                    <cstring>textLabel3_2</cstring>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>210</y>
+                        <width>150</width>
+                        <height>21</height>
+                    </rect>
+                </property>
+                <property name="paletteForegroundColor">
+                    <color>
+                        <red>255</red>
+                        <green>255</green>
+                        <blue>255</blue>
+                    </color>
+                </property>
+                <property name="paletteBackgroundPixmap">
+                    <pixmap></pixmap>
+                </property>
+                <property name="backgroundOrigin">
+                    <enum>AncestorOrigin</enum>
+                </property>
+                <property name="text">
+                    <string>&lt;b&gt;Nick name:&lt;/b&gt;</string>
+                </property>
+                <property name="alignment">
+                    <set>WordBreak|AlignVCenter|AlignRight</set>
+                </property>
+            </widget>
+            <widget class="QLineEdit">
+                <property name="name">
+                    <cstring>m_nick</cstring>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>180</x>
+                        <y>210</y>
+                        <width>200</width>
+                        <height>22</height>
+                    </rect>
+                </property>
+            </widget>
+            <widget class="QCheckBox">
+                <property name="name">
+                    <cstring>m_save</cstring>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>270</y>
+                        <width>200</width>
+                        <height>22</height>
+                    </rect>
+                </property>
+                <property name="paletteForegroundColor">
+                    <color>
+                        <red>255</red>
+                        <green>255</green>
+                        <blue>255</blue>
+                    </color>
+                </property>
+                <property name="backgroundOrigin">
+                    <enum>AncestorOrigin</enum>
+                </property>
+                <property name="text">
+                    <string>Save Profile</string>
+                </property>
+            </widget>
+            <widget class="QPushButton">
+                <property name="name">
+                    <cstring>btnConnect</cstring>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>260</x>
+                        <y>266</y>
+                        <width>120</width>
+                        <height>30</height>
+                    </rect>
+                </property>
+                <property name="backgroundOrigin">
+                    <enum>AncestorOrigin</enum>
+                </property>
+                <property name="autoMask">
+                    <bool>true</bool>
+                </property>
+                <property name="text">
+                    <string>&amp;Connect</string>
+                </property>
+                <property name="accel">
+                    <string>Ctrl+C</string>
+                </property>
+                <property name="on">
+                    <bool>false</bool>
+                </property>
+                <property name="autoRepeat">
+                    <bool>true</bool>
+                </property>
+                <property name="autoDefault">
+                    <bool>true</bool>
+                </property>
+                <property name="default">
+                    <bool>true</bool>
+                </property>
+                <property name="flat">
+                    <bool>false</bool>
+                </property>
+            </widget>
+        </widget>
+    </grid>
+</widget>
+<connections>
+    <connection>
+        <sender>btnConnect</sender>
+        <signal>clicked()</signal>
+        <receiver>Login</receiver>
+        <slot>slotConnect()</slot>
+    </connection>
+    <connection>
+        <sender>m_login</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Login</receiver>
+        <slot>slotDataChanged(const QString&amp;)</slot>
+    </connection>
+    <connection>
+        <sender>m_nick</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Login</receiver>
+        <slot>slotDataChanged(const QString&amp;)</slot>
+    </connection>
+    <connection>
+        <sender>m_password</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Login</receiver>
+        <slot>slotDataChanged(const QString&amp;)</slot>
+    </connection>
+    <connection>
+        <sender>m_profile</sender>
+        <signal>activated(int)</signal>
+        <receiver>Login</receiver>
+        <slot>slotActivated(int)</slot>
+    </connection>
+</connections>
+<tabstops>
+    <tabstop>m_profile</tabstop>
+    <tabstop>m_login</tabstop>
+    <tabstop>m_nick</tabstop>
+    <tabstop>m_password</tabstop>
+    <tabstop>btnConnect</tabstop>
+    <tabstop>m_save</tabstop>
+</tabstops>
+<includes>
+    <include location="local" impldecl="in implementation">login.ui.h</include>
+</includes>
+<slots>
+    <slot>slotConnect()</slot>
+    <slot>slotDataChanged( const QString &amp; )</slot>
+    <slot>slotActivated( int )</slot>
+    <slot specifier="non virtual">updateCombo()</slot>
+    <slot specifier="non virtual">slotUpdateAll( bool f )</slot>
+</slots>
+<functions>
+    <function returnType="QPixmap">getBgPixmap()</function>
+    <function>init()</function>
+</functions>
+<pixmapfunction>getBgPixmap</pixmapfunction>
+<layoutdefaults spacing="0" margin="0"/>
+<includehints>
+    <includehint>qwidget.h</includehint>
+</includehints>
+</UI>

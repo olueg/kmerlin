@@ -1,0 +1,24 @@
+# Build outputs
+*.o
+*.lo
+*.la
+*.a
+*.so
+*.gmo
+*.moc
+
+# Autotools build tree
+autom4te.cache/
+.deps/
+.libs/
+stamp-h1
+config.log
+config.status
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.bak
+EOF

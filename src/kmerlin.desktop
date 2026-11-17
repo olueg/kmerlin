@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=KMerlin
+Exec=kmerlin %i %m -caption "%c"
+Icon=kmerlin
+Type=Application
+DocPath=kmerlin/kmerlin.html
+Comment=A KDE MSN Messenger
+Comment[de]=Ein KDE-MSN Messenger
+Terminal=0

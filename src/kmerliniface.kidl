@@ -1,0 +1,8 @@
+<!DOCTYPE DCOP-IDL><DCOP-IDL>
+<SOURCE>./kmerliniface.h</SOURCE>
+<INCLUDE>dcopobject.h</INCLUDE>
+<CLASS>
+    <NAME>KMerlinIface</NAME>
+    <SUPER>DCOPObject</SUPER>
+</CLASS>
+</DCOP-IDL>

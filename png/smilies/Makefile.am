@@ -1,0 +1,3 @@
+# this is where the png resource files goes
+pngdir = $(kde_datadir)/kmerlin/smilies
+png_DATA = angel.png angry.png bat.png beer_yum.png bowwow.png broken_heart.png cake.png camera.png clock.png coffee.png confused.png cry.png devil.png dude_hug.png embaressed.png film.png girl_handsacross.png girl_hug.png guy_handsacross.png heart.png kiss.png kittykay.png lightbulb.png mail.png martini_shaken.png messenger.png moon.png musical_note.png omg.png phone.png present.png README regular.png rose.png sad.png satisfied.png shades.png smileyrc star.png teeth.png thumbs_down.png thumbs_up.png tounge.png ugly.png whatchutalkingabout_smile.png wilted_rose.png wink.png

@@ -1,0 +1,190 @@
+<!DOCTYPE UI><UI version="3.0" stdsetdef="1">
+<class>ReplacePage</class>
+<author>Olaf Lueg</author>
+<widget class="QWidget">
+    <property name="name">
+        <cstring>ReplacePage</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>658</width>
+            <height>406</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Text Replace</string>
+    </property>
+    <grid>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <property name="margin">
+            <number>11</number>
+        </property>
+        <property name="spacing">
+            <number>6</number>
+        </property>
+        <widget class="QLayoutWidget" row="1" column="0">
+            <property name="name">
+                <cstring>Layout1</cstring>
+            </property>
+            <grid>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <property name="margin">
+                    <number>0</number>
+                </property>
+                <property name="spacing">
+                    <number>6</number>
+                </property>
+                <widget class="QLineEdit" row="0" column="1">
+                    <property name="name">
+                        <cstring>newTxt</cstring>
+                    </property>
+                </widget>
+                <widget class="QLineEdit" row="0" column="0">
+                    <property name="name">
+                        <cstring>orgTxt</cstring>
+                    </property>
+                </widget>
+                <widget class="KPushButton" row="0" column="2">
+                    <property name="name">
+                        <cstring>KPushButton1</cstring>
+                    </property>
+                    <property name="text">
+                        <string>&amp;Add new</string>
+                    </property>
+                    <property name="autoDefault">
+                        <bool>true</bool>
+                    </property>
+                    <property name="default">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+            </grid>
+        </widget>
+        <widget class="QListView" row="0" column="0">
+            <column>
+                <property name="text">
+                    <string>Name</string>
+                </property>
+                <property name="clickable">
+                    <bool>true</bool>
+                </property>
+                <property name="resizeable">
+                    <bool>true</bool>
+                </property>
+            </column>
+            <column>
+                <property name="text">
+                    <string>Replace with</string>
+                </property>
+                <property name="clickable">
+                    <bool>true</bool>
+                </property>
+                <property name="resizeable">
+                    <bool>true</bool>
+                </property>
+            </column>
+            <property name="name">
+                <cstring>List</cstring>
+            </property>
+            <property name="allColumnsShowFocus">
+                <bool>true</bool>
+            </property>
+            <property name="showSortIndicator">
+                <bool>true</bool>
+            </property>
+            <property name="resizeMode">
+                <enum>AllColumns</enum>
+            </property>
+        </widget>
+        <widget class="QLayoutWidget" row="2" column="0">
+            <property name="name">
+                <cstring>Layout2</cstring>
+            </property>
+            <grid>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <property name="margin">
+                    <number>0</number>
+                </property>
+                <property name="spacing">
+                    <number>6</number>
+                </property>
+                <spacer row="0" column="0">
+                    <property name="name">
+                        <cstring>Spacer1</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>221</width>
+                            <height>0</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="KPushButton" row="0" column="1">
+                    <property name="name">
+                        <cstring>btnRemove</cstring>
+                    </property>
+                    <property name="text">
+                        <string>&amp;Remove</string>
+                    </property>
+                </widget>
+            </grid>
+        </widget>
+    </grid>
+</widget>
+<connections>
+    <connection>
+        <sender>orgTxt</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>ReplacePage</receiver>
+        <slot>orgTxt_textChanged(const QString&amp;)</slot>
+    </connection>
+    <connection>
+        <sender>newTxt</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>ReplacePage</receiver>
+        <slot>newTxt_textChanged(const QString&amp;)</slot>
+    </connection>
+    <connection>
+        <sender>KPushButton1</sender>
+        <signal>pressed()</signal>
+        <receiver>ReplacePage</receiver>
+        <slot>KPushButton1_pressed()</slot>
+    </connection>
+    <connection>
+        <sender>List</sender>
+        <signal>selectionChanged(QListViewItem*)</signal>
+        <receiver>ReplacePage</receiver>
+        <slot>List_selectionChanged(QListViewItem*)</slot>
+    </connection>
+</connections>
+<tabstops>
+    <tabstop>orgTxt</tabstop>
+    <tabstop>newTxt</tabstop>
+    <tabstop>KPushButton1</tabstop>
+    <tabstop>List</tabstop>
+</tabstops>
+<includes>
+    <include location="local" impldecl="in implementation">replacepage.ui.h</include>
+</includes>
+<slots>
+    <slot>orgTxt_textChanged( const QString &amp; text )</slot>
+    <slot>newTxt_textChanged( const QString &amp; text )</slot>
+    <slot>KPushButton1_pressed()</slot>
+    <slot>List_selectionChanged( QListViewItem * item )</slot>
+</slots>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

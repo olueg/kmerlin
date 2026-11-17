@@ -1,0 +1,36 @@
+#MIN_CONFIG
+
+AM_INIT_AUTOMAKE(kmerlin, 1.4.2)
+AC_C_BIGENDIAN
+AC_CHECK_KDEMAXPATHLEN
+ac_ldflags_safe="$LDFLAGS"
+ac_libs_safe="$LIBS"
+LIBS="-lXext -lX11 $X_LDFLAGS"
+
+LIBXSS=""
+
+# Try if we need to compile the kdecompat -- that we need to stay bc to 3.0
+# If we need the kdecompat, then have the AM variable NEED_COMPAT
+AC_CHECK_HEADER(kpassivepopup.h,
+        [USELESS_VAR=1],
+        [NEED_COMPAT=yes])
+AM_CONDITIONAL(NEED_COMPAT,test -n "$NEED_COMPAT")
+
+AC_CHECK_LIB(Xss, XScreenSaverAllocInfo, [LIBXSS="-lXext -lXss"],[AC_MSG_ERROR([
+                   libXss not found
+                  Please install it
+     They mostly find it in the XFree86devel package
+])])
+if test "x$LIBXSS" != "x"; then
+     AC_DEFINE(HAVE_LIBXSS,1,[Define if you have libXss installed])
+fi
+LIBS="$ac_libs_safe"
+LDFLAGS="$ac_ldflags_safe"
+AC_SUBST(LIBXSS)
+AC_LANG_SAVE
+kde_safe_cppflags=$CPPFLAGS
+CPPFLAGS="$CPPFLAGS $all_includes"
+AC_LANG_CPLUSPLUS
+
+
+AC_LANG_RESTORE

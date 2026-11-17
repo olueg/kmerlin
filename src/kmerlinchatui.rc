@@ -1,0 +1,48 @@
+<kpartgui name="KMerlin" version="20">
+	<MenuBar>
+		<Menu name="settings">
+			<text>&amp;Settings</text>
+		</Menu>
+		<Menu name="file">
+			<text>&amp;File</text>
+		</Menu>
+		<Menu name="edit">
+			<text>&amp;Edit</text>
+		</Menu>
+		<Menu name="extra">
+			<text>&amp;Extras</text>
+			<Action name="extraTime"/>
+			<Action name="extraSmiley"/>
+			<Action name="extraLog"/>
+			<Separator/>
+			<Action name="addContact"/>
+			<Action name="inviteContact"/>
+		</Menu>
+		<Menu name="format">
+			<text>&amp;Format</text>
+			<Action name="font"/>
+			<Action name="color"/>
+             		<Separator/>			
+			<Action name="bold"/>
+			<Action name="underline"/>
+			<Action name="strikeout"/>
+			<Action name="italic"/>
+		</Menu>
+		<Menu name="view">
+			<text>&amp;View</text>
+			<Action name="toolWindow"/>
+			<Separator/>
+		</Menu>
+	</MenuBar>
+	<ToolBar fullWidth="true" name="formatToolBar">
+			<Action name="font"/>
+			<Action name="color"/>
+			<Action name="bold"/>
+			<Action name="underline"/>
+			<Action name="strikeout"/>
+			<Action name="italic"/>
+	</ToolBar>
+		<ToolBar fullWidth="true" name="mainToolBar">
+			<Action name="quit"/>
+	</ToolBar>
+</kpartgui>

@@ -1,0 +1,981 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"POT-Creation-Date: 2003-01-04 12:36+0100\n"
+"PO-Revision-Date: 2002-04-18 19:39+0200\n"
+"Last-Translator: Olaf Lueg <olueg@olsd.de>\n"
+"Language-Team: German <de@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 0.9.6\n"
+
+#: CContactWidget.moc.cpp:34 CContactWidget.moc.cpp:42
+msgid "CContactWidget"
+msgstr ""
+
+#: _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr ""
+
+#: _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr ""
+
+#: authdlg.cpp:103 rc.cpp:4
+msgid "Authenticate"
+msgstr ""
+
+#: authdlg.cpp:104 rc.cpp:5
+msgid "<h3><b>New contact received!</b></h3>"
+msgstr ""
+
+#: authdlg.cpp:105 groupdlg.cpp:93 rc.cpp:6 rc.cpp:15
+#: setting/identityeditdialog.cpp:266
+msgid "&Ok"
+msgstr ""
+
+#: authdlg.cpp:106 rc.cpp:7
+msgid "Block Contact"
+msgstr ""
+
+#: authdlg.cpp:107 rc.cpp:8
+msgid "Allow this contact to  see your online state"
+msgstr ""
+
+#: connectwidget.cpp:46 rc.cpp:10
+msgid "Form1"
+msgstr ""
+
+#: groupdlg.cpp:89 rc.cpp:11
+msgid "Group"
+msgstr ""
+
+#: groupdlg.cpp:90 kmerlin.cpp:975 kmgroup.cpp:125 kmgroup.cpp:152 rc.cpp:12
+msgid "Type in the new group name"
+msgstr ""
+
+#: groupdlg.cpp:92 kmgroup.cpp:62 kmgroup.cpp:122 kmgroup.cpp:123 rc.cpp:14
+msgid "Rename Group"
+msgstr ""
+
+#: imchatservice.cpp:296 kmservice.cpp:704
+msgid "Connection refused"
+msgstr ""
+
+#: imchatservice.cpp:302 kmservice.cpp:710
+msgid "Host not found"
+msgstr ""
+
+#: imchatservice.cpp:307 kmservice.cpp:715
+msgid "Socket error"
+msgstr ""
+
+#: kmcontact.cpp:78
+msgid "Send Message"
+msgstr ""
+
+#: kmcontact.cpp:80
+msgid "Block this Contact"
+msgstr ""
+
+#: kmcontact.cpp:82
+msgid "Allow this Contact"
+msgstr ""
+
+#: kmcontact.cpp:84
+msgid "Remove this Contact"
+msgstr ""
+
+#: kmcontact.cpp:86
+msgid "Change nick name"
+msgstr ""
+
+#: kmcontact.cpp:95 kmcontact.cpp:109 kmcontact.cpp:135 kmcontact.cpp:144
+#: kmcontact.cpp:152 kmcontact.cpp:160 kmcontact.cpp:168 kmcontact.cpp:176
+#: kmcontact.cpp:184 kmcontact.cpp:194 kmcontact.cpp:467
+msgid "E-Mail:"
+msgstr ""
+
+#: kmcontact.cpp:96 kmcontact.cpp:110 kmcontact.cpp:136 kmcontact.cpp:145
+#: kmcontact.cpp:153 kmcontact.cpp:161 kmcontact.cpp:169 kmcontact.cpp:177
+#: kmcontact.cpp:185 kmcontact.cpp:195 kmcontact.cpp:468
+msgid "Status:"
+msgstr ""
+
+#: kmcontact.cpp:96 kmcontact.cpp:110 kmcontact.cpp:136 kmcontact.cpp:533
+#: kmerlin.cpp:151 kmerlin.cpp:152 kmerlin.cpp:505 kmerlin.cpp:506
+#: kmerlindock.cpp:134
+msgid "Offline"
+msgstr ""
+
+#: kmcontact.cpp:97 kmcontact.cpp:111 kmcontact.cpp:137 kmcontact.cpp:146
+#: kmcontact.cpp:154 kmcontact.cpp:162 kmcontact.cpp:170 kmcontact.cpp:178
+#: kmcontact.cpp:186 kmcontact.cpp:196 kmcontact.cpp:286 kmcontact.cpp:469
+msgid "Left click to display the context menu!"
+msgstr ""
+
+#: kmcontact.cpp:98
+msgid "Right click to display the context menu"
+msgstr ""
+
+#: kmcontact.cpp:145 kmerlin.cpp:212 kmerlin.cpp:784
+msgid "Online"
+msgstr ""
+
+#: kmcontact.cpp:153 kmcontact.cpp:156 kmcontact.cpp:537 kmerlin.cpp:214
+#: kmerlin.cpp:792
+msgid "Be right back"
+msgstr ""
+
+#: kmcontact.cpp:161 kmcontact.cpp:164 kmcontact.cpp:539 kmerlin.cpp:216
+#: kmerlin.cpp:800
+msgid "On the phone"
+msgstr ""
+
+#: kmcontact.cpp:169 kmcontact.cpp:172 kmcontact.cpp:541 kmerlin.cpp:215
+#: kmerlin.cpp:780 kmerlin.cpp:796
+msgid "Away"
+msgstr ""
+
+#: kmcontact.cpp:177 kmcontact.cpp:180 kmcontact.cpp:543 kmerlin.cpp:213
+#: kmerlin.cpp:788
+msgid "Busy"
+msgstr ""
+
+#: kmcontact.cpp:185 kmcontact.cpp:188 kmcontact.cpp:545 kmerlin.cpp:217
+#: kmerlin.cpp:804
+msgid "Out to lunch"
+msgstr ""
+
+#: kmcontact.cpp:195 kmcontact.cpp:197 kmcontact.cpp:468 kmcontact.cpp:472
+#: kmcontact.cpp:547
+msgid "Blocked"
+msgstr ""
+
+#: kmcontact.cpp:285
+#, ycp-format
+msgid ""
+"<center><b>%1</b></center>E-Mail Address: <b>%2</b><br>Status: <b>%3</B><br>"
+msgstr ""
+
+#: kmcontactaction.moc.cpp:34 kmcontactaction.moc.cpp:42
+msgid "KMContactAction"
+msgstr ""
+
+#: kmerlin.cpp:168
+msgid "Event List"
+msgstr ""
+
+#: kmerlin.cpp:208 kmerlin.cpp:472 kmerlin.cpp:491
+msgid "Disconnect"
+msgstr ""
+
+#: kmerlin.cpp:210
+msgid "Status"
+msgstr ""
+
+#: kmerlin.cpp:218
+msgid "Hidden"
+msgstr ""
+
+#: kmerlin.cpp:233
+msgid "&Add to panel"
+msgstr ""
+
+#: kmerlin.cpp:234
+msgid "Import..."
+msgstr ""
+
+#: kmerlin.cpp:235
+msgid "Export..."
+msgstr ""
+
+#: kmerlin.cpp:236
+msgid "Hide Window"
+msgstr ""
+
+#: kmerlin.cpp:237
+msgid "Open Hotmail"
+msgstr ""
+
+#: kmerlin.cpp:245
+msgid "&Event View"
+msgstr ""
+
+#: kmerlin.cpp:246
+msgid "&View Online"
+msgstr ""
+
+#: kmerlin.cpp:247
+msgid "View &Groups"
+msgstr ""
+
+#: kmerlin.cpp:249
+msgid "Edit Groups..."
+msgstr ""
+
+#: kmerlin.cpp:250
+msgid "Edit Contacts..."
+msgstr ""
+
+#: kmerlin.cpp:251
+msgid "Change Nick..."
+msgstr ""
+
+#: kmerlin.cpp:252
+msgid "Add Group..."
+msgstr ""
+
+#: kmerlin.cpp:253
+msgid "Add Contact..."
+msgstr ""
+
+#: kmerlin.cpp:366
+msgid "Please check your identity settings"
+msgstr ""
+
+#: kmerlin.cpp:475
+#, c-format, ycp-format
+msgid "Connected as: %1"
+msgstr ""
+
+#: kmerlin.cpp:526
+msgid "Please enter your password"
+msgstr ""
+
+#: kmerlin.cpp:808
+#, fuzzy
+msgid "Invisible"
+msgstr "Invitar usuari"
+
+#: kmerlin.cpp:872
+msgid "System is idle, set status to Away!"
+msgstr ""
+
+#: kmerlin.cpp:880
+msgid "Set status to Online!"
+msgstr ""
+
+#: kmerlin.cpp:890 kmerlin.cpp:893
+#, ycp-format
+msgid "You have %1 unread e-mails"
+msgstr ""
+
+#: kmerlin.cpp:902
+msgid "Change Nick Name"
+msgstr ""
+
+#: kmerlin.cpp:903
+msgid "<QT><h3>Change nick name</h3></QT>"
+msgstr ""
+
+#: kmerlin.cpp:906
+msgid "Type the new nick name"
+msgstr ""
+
+#: kmerlin.cpp:954 kmerlin.cpp:955 kmgroup.cpp:55 kmgroup.cpp:131
+#: kmgroup.cpp:132
+msgid "Add Contact"
+msgstr ""
+
+#: kmerlin.cpp:957 kmgroup.cpp:134
+msgid "Type in the new contact email"
+msgstr ""
+
+#: kmerlin.cpp:972 kmerlin.cpp:973 kmgroup.cpp:64 kmgroup.cpp:149
+#: kmgroup.cpp:150
+msgid "Add Group"
+msgstr ""
+
+#: kmerlindock.cpp:111
+#, c-format, ycp-format
+msgid "You have a new e-mail received:<br>%1"
+msgstr ""
+
+#: kmerlindock.cpp:121
+#, c-format, ycp-format
+msgid "Connecting to MSN as: %1"
+msgstr ""
+
+#: kmerlindock.cpp:130
+#, ycp-format
+msgid "Connected to MSN as: %1<br>Your Status is: %2"
+msgstr ""
+
+#: kmerlindock.cpp:192
+#, ycp-format
+msgid "Connected to MSN as: %1<br>Your Status is: Online"
+msgstr ""
+
+#: kmerlindock.cpp:197
+#, ycp-format
+msgid "Connected to MSN as: %1<br>Your Status is: Invisible"
+msgstr ""
+
+#: kmerlindock.cpp:202 kmerlindock.cpp:217
+#, ycp-format
+msgid "Connected to MSN as: %1<br>Your Status is: Away"
+msgstr ""
+
+#: kmerlindock.cpp:207
+#, ycp-format
+msgid "Connected to MSN as: %1<br>Your Status is: Be right back"
+msgstr ""
+
+#: kmerlindock.cpp:212
+#, ycp-format
+msgid "Connected to MSN as: %1<br>Your Status is: Out to lunch"
+msgstr ""
+
+#: kmerlindock.cpp:222
+#, ycp-format
+msgid "Connected to MSN as: %1<br>Your Status is: On the phone"
+msgstr ""
+
+#: kmerlindock.cpp:227
+#, ycp-format
+msgid "Connected to MSN as: %1<br>Your Status is: Busy"
+msgstr ""
+
+#: kmerlindock.moc.cpp:34 kmerlindock.moc.cpp:42
+msgid "KMerlinDock"
+msgstr ""
+
+#: kmerlinnotify.cpp:101 kmerlinnotify.cpp:105
+#, c-format, ycp-format
+msgid "New mail from %1"
+msgstr ""
+
+#: kmerlinnotify.cpp:112
+msgid "New Mail"
+msgstr ""
+
+#: kmerlinnotify.cpp:113
+#, ycp-format
+msgid ""
+"Subject: %1\n"
+"From: %2"
+msgstr ""
+
+#: kmerlinnotify.cpp:134 kmerlinnotify.cpp:138 kmerlinnotify.cpp:146
+#, ycp-format
+msgid "%1 is online"
+msgstr ""
+
+#: kmerlinnotify.cpp:145 kmerlinnotify.cpp:176
+msgid "Status Change"
+msgstr ""
+
+#: kmerlinnotify.cpp:164 kmerlinnotify.cpp:168
+#, ycp-format
+msgid "%1 went offline"
+msgstr ""
+
+#: kmerlinnotify.cpp:177
+#, ycp-format
+msgid "%1 just went offline"
+msgstr ""
+
+#: kmerlinnotify.cpp:196
+#, c-format, ycp-format
+msgid "Started conversation with %1"
+msgstr ""
+
+#: kmerlinnotify.cpp:200 kmerlinnotify.cpp:208
+#, c-format, ycp-format
+msgid "You are in conversation with %1"
+msgstr ""
+
+#: kmerlinnotify.cpp:207
+msgid "Conversation"
+msgstr ""
+
+#: kmerlinnotify.cpp:228 kmerlinnotify.cpp:232
+#, ycp-format
+msgid "Message from %1: %2"
+msgstr ""
+
+#: kmerlinnotify.cpp:240
+#, c-format, ycp-format
+msgid "Message from %1"
+msgstr ""
+
+#: kmerlinprofile.moc.cpp:34 kmerlinprofile.moc.cpp:42
+msgid "KMerlinProfile"
+msgstr ""
+
+#: kmgroup.cpp:56
+msgid "Insert Contact"
+msgstr ""
+
+#: kmgroup.cpp:63
+msgid "Remove Group"
+msgstr ""
+
+#: kmgroup.cpp:170
+msgid "Group not empty"
+msgstr ""
+
+#: kmgroup.moc.cpp:34 kmgroup.moc.cpp:42
+msgid "KMGroup"
+msgstr ""
+
+#: kmservice.cpp:88
+msgid "Authentication failed"
+msgstr ""
+
+#: kmservice.cpp:94
+msgid ""
+"Sorry!\n"
+"There is a problem with the server."
+msgstr ""
+
+#: kmservice.cpp:100
+msgid "Try other server"
+msgstr ""
+
+#: kmservice.cpp:110
+msgid "Try to login"
+msgstr ""
+
+#: kmservice.cpp:116
+msgid "Sending user information"
+msgstr ""
+
+#: kmservice.cpp:121
+#, c-format, ycp-format
+msgid "Actual nick name received: %1"
+msgstr ""
+
+#: kmservice.cpp:166
+msgid "Succesful connected, switching to Online"
+msgstr ""
+
+#: kmservice.cpp:324
+msgid ""
+"You have connected\n"
+"from an other client"
+msgstr ""
+
+#: kmservice.cpp:542 kmservice.cpp:543
+msgid "Friends"
+msgstr ""
+
+#: kmservice.moc.cpp:34 kmservice.moc.cpp:42
+msgid "KMService"
+msgstr ""
+
+#: login.cpp:142 rc.cpp:16
+msgid "Login"
+msgstr ""
+
+#: login.cpp:143 rc.cpp:17
+msgid "<b>Choose Profile</b>"
+msgstr ""
+
+#: login.cpp:144 rc.cpp:18
+msgid "<b>Login:</b>"
+msgstr ""
+
+#: login.cpp:145 rc.cpp:19
+msgid "<b>Password:</b>"
+msgstr ""
+
+#: login.cpp:146 rc.cpp:20
+msgid "<b>Nick name:</b>"
+msgstr ""
+
+#: login.cpp:147 rc.cpp:21
+msgid "Save Profile"
+msgstr ""
+
+#: login.cpp:148 rc.cpp:22
+msgid "&Connect"
+msgstr ""
+
+#: login.cpp:149 rc.cpp:23
+msgid "Ctrl+C"
+msgstr ""
+
+#: main.cpp:30
+msgid "A MSN Messenger"
+msgstr ""
+
+#: main.cpp:36
+msgid "Document to open."
+msgstr ""
+
+#: main.cpp:42
+msgid "KMerlin"
+msgstr ""
+
+#: main.cpp:46
+msgid "Custom font and color selection in chat window"
+msgstr ""
+
+#: main.cpp:47
+msgid "Clearer KNotify messages"
+msgstr ""
+
+#: main.cpp:48
+msgid "Made it possible to receive URL's"
+msgstr ""
+
+#: main.cpp:49
+msgid "KDE3 porting"
+msgstr ""
+
+#: main.cpp:50
+msgid "Translation to Spain and Catalan"
+msgstr ""
+
+#: qcategorywidget.moc.cpp:34 qcategorywidget.moc.cpp:42
+msgid "QCategoryWidget"
+msgstr ""
+
+#: rc.cpp:3
+msgid "&Extra"
+msgstr ""
+
+#: xautolock.moc.cpp:34 xautolock.moc.cpp:42
+msgid "XAutoLock"
+msgstr ""
+
+#: chat/kmerlinchat.cpp:113 chat/kmerlinchat.cpp:129
+#, ycp-format
+msgid "%1 is listening"
+msgstr ""
+
+#: chat/kmerlinchat.cpp:125
+#, ycp-format
+msgid "%1 is writing a message"
+msgstr ""
+
+#: chat/kmerlinchat.cpp:136
+msgid "NLN"
+msgstr ""
+
+#: chat/kmerlinchat.cpp:138
+#, ycp-format
+msgid ""
+"Attention<br>%1 has changed the status to: %2<br>It's possible that the "
+"message can't received!"
+msgstr ""
+
+#: chat/kmerlinchat.cpp:141
+msgid "Boring"
+msgstr ""
+
+#: chat/kmerlinchat.cpp:176
+msgid "Sidebar"
+msgstr ""
+
+#: chat/kmerlinchat.cpp:190
+msgid "Smileys"
+msgstr ""
+
+#: chat/kmerlinchat.cpp:228
+msgid "Bold"
+msgstr ""
+
+#: chat/kmerlinchat.cpp:229
+msgid "Strikeout"
+msgstr ""
+
+#: chat/kmerlinchat.cpp:230
+msgid "Underline"
+msgstr ""
+
+#: chat/kmerlinchat.cpp:232
+msgid "&Set Font"
+msgstr ""
+
+#: chat/kmerlinchat.cpp:233
+msgid "&Set Color"
+msgstr ""
+
+#: chat/kmerlinchat.cpp:235
+msgid "&Display time"
+msgstr ""
+
+#: chat/kmerlinchat.cpp:236
+msgid "&Display Smileys"
+msgstr ""
+
+#: chat/kmerlinchat.cpp:237
+msgid "&Enable Logging"
+msgstr ""
+
+#: chat/kmerlinchat.cpp:238
+msgid "&View Sidebar"
+msgstr ""
+
+#: chat/kmerlinchat.cpp:240
+msgid "[New] Chat"
+msgstr ""
+
+#: chat/kmerlinchat.cpp:335
+#, ycp-format
+msgid "Chat with: %1 "
+msgstr ""
+
+#: chat/kmerlinchat.cpp:336 chat/kmerlinchat.cpp:366 chat/kmerlinchat.cpp:367
+#: chat/kmerlinchat.cpp:386 chat/kmerlinchat.cpp:388
+#, c-format, ycp-format
+msgid "Chat with: %1"
+msgstr ""
+
+#: chat/kmerlinchat.cpp:352 chat/kmerlinchat.cpp:466 chat/kmerlinchat.cpp:589
+msgid "Left click to invite this contact"
+msgstr ""
+
+#: chat/kmerlinchat.cpp:376 chat/kmerlinchat.cpp:378
+#, c-format, ycp-format
+msgid "[Changed] Chat with: %1"
+msgstr ""
+
+#: chat/kmerlinchat.cpp:404
+#, c-format, ycp-format
+msgid "Your last message was received at : %1"
+msgstr ""
+
+#: chat/kmerlinchat.cpp:406
+#, c-format, ycp-format
+msgid "Your last message was not received : %1"
+msgstr ""
+
+#: chat/kmerlinchat.cpp:429 chat/kmerlinchat.cpp:437 chat/kmerlinchat.cpp:601
+#: chat/kmerlinchat.cpp:606
+msgid "Please wait..."
+msgstr ""
+
+#: chat/kmerlinchat.cpp:460
+#, ycp-format
+msgid "%1 has left the Chat Session"
+msgstr ""
+
+#: chat/kmerlinchat.cpp:484 chat/kmerlinchat.cpp:495
+#, ycp-format
+msgid "You are talking with:%1 %2"
+msgstr ""
+
+#: chat/kmerlinchat.cpp:515
+#, ycp-format
+msgid "%1 has joined the Chat Session!"
+msgstr ""
+
+#: chat/kmerlinchat.moc.cpp:34 chat/kmerlinchat.moc.cpp:42
+msgid "KMChatContact"
+msgstr ""
+
+#: chat/kmerlinchat.moc.cpp:119 chat/kmerlinchat.moc.cpp:127
+msgid "KMerlinChat"
+msgstr ""
+
+#: chat/kmerlinchatview.cpp:51
+msgid "Send"
+msgstr ""
+
+#: chat/kmerlinchatview.cpp:270 chat/kmerlinchatview.cpp:291
+#, fuzzy, ycp-format
+msgid "%1 says:"
+msgstr "diu:"
+
+#: chat/kmerlinchatview.cpp:302
+msgid "System message:"
+msgstr ""
+
+#: chat/kmerlinchatview.cpp:494
+msgid "Save conversation"
+msgstr ""
+
+#: chat/kmerlinchatview.cpp:506
+msgid "Save failed"
+msgstr ""
+
+#: chat/kmerlinchatview.cpp:507
+msgid "Error while saving"
+msgstr ""
+
+#: chat/kmerlinchatview.moc.cpp:34 chat/kmerlinchatview.moc.cpp:42
+msgid "KMerlinChatView"
+msgstr ""
+
+#: chat/smileywidget.moc.cpp:34 chat/smileywidget.moc.cpp:42
+msgid "SmileyWidget"
+msgstr ""
+
+#: setting/chatsetting.cpp:287
+msgid "Chat Setting"
+msgstr ""
+
+#: setting/chatsetting.cpp:289
+msgid "Set as default font"
+msgstr ""
+
+#: setting/chatsetting.cpp:290
+msgid "Color:"
+msgstr ""
+
+#: setting/chatsetting.cpp:291
+msgid "Font:"
+msgstr ""
+
+#: setting/chatsetting.cpp:292
+#, c-format
+msgid "%E.log"
+msgstr ""
+
+#: setting/chatsetting.cpp:293
+msgid ""
+"Valid placeholders are: <br>%E = E-Mail Address<br>%N = Nick name<br>%T = "
+"Time"
+msgstr ""
+
+#: setting/chatsetting.cpp:294
+msgid "Filename:"
+msgstr ""
+
+#: setting/chatsetting.cpp:295
+msgid "Enable emotion icons"
+msgstr ""
+
+#: setting/chatsetting.cpp:296
+msgid "Enable logging"
+msgstr ""
+
+#: setting/identityeditdialog.cpp:261
+msgid "Edit Identity"
+msgstr ""
+
+#: setting/identityeditdialog.cpp:262
+msgid "Your login:"
+msgstr ""
+
+#: setting/identityeditdialog.cpp:263
+msgid "Password:"
+msgstr ""
+
+#: setting/identityeditdialog.cpp:264
+msgid "Your nick name:"
+msgstr ""
+
+#: setting/identityeditdialog.cpp:265
+msgid "&General"
+msgstr ""
+
+#: setting/identitysetting.cpp:430 setting/identitysetting.cpp:431
+#: setting/identitysetting.cpp:496
+msgid "Identity Name"
+msgstr ""
+
+#: setting/identitysetting.cpp:432 setting/identitysetting.cpp:433
+#: setting/identitysetting.cpp:497
+msgid "E-Mail Address"
+msgstr ""
+
+#: setting/identitysetting.cpp:490
+msgid "Identity Settings"
+msgstr ""
+
+#: setting/identitysetting.cpp:491
+msgid "&New ..."
+msgstr ""
+
+#: setting/identitysetting.cpp:492
+msgid "&Modify..."
+msgstr ""
+
+#: setting/identitysetting.cpp:493
+msgid "&Rename..."
+msgstr ""
+
+#: setting/identitysetting.cpp:494
+msgid "Remo&ve"
+msgstr ""
+
+#: setting/identitysetting.cpp:495
+msgid "Set as &Default"
+msgstr ""
+
+#: setting/identitysetting.cpp:498
+msgid "Auto connect on start up"
+msgstr ""
+
+#: setting/identitysetting.cpp:499
+msgid "Set status to away after:"
+msgstr ""
+
+#: setting/identitysetting.cpp:500
+msgid "0 disaable this feature"
+msgstr ""
+
+#: setting/identitysetting.cpp:501
+msgid "Minutes"
+msgstr ""
+
+#: setting/notificationsettings.moc.cpp:34
+#: setting/notificationsettings.moc.cpp:42
+msgid "NotificationSettings"
+msgstr ""
+
+#: setting/replacepage.cpp:54 setting/replacepage.cpp:102
+msgid "Name"
+msgstr ""
+
+#: setting/replacepage.cpp:55 setting/replacepage.cpp:103
+msgid "Replace with"
+msgstr ""
+
+#: setting/replacepage.cpp:100
+msgid "Text Replace"
+msgstr ""
+
+#: setting/replacepage.cpp:101
+msgid "&Add new"
+msgstr ""
+
+#: setting/settingsdialog.cpp:56
+msgid "Settings"
+msgstr ""
+
+#: setting/settingsdialog.cpp:59
+msgid "Identity"
+msgstr ""
+
+#: setting/settingsdialog.cpp:62
+msgid "Notification"
+msgstr ""
+
+#: setting/settingsdialog.cpp:62
+msgid "Notification Settings"
+msgstr ""
+
+#: setting/settingsdialog.cpp:65
+msgid "Chat"
+msgstr ""
+
+#: setting/settingsdialog.moc.cpp:34 setting/settingsdialog.moc.cpp:42
+msgid "SettingsDialog"
+msgstr ""
+
+#: setting/systemnotification.cpp:54 setting/systemnotification.cpp:194
+msgid "Actions"
+msgstr ""
+
+#: setting/systemnotification.cpp:188
+msgid "System Notifications"
+msgstr ""
+
+#: setting/systemnotification.cpp:195
+msgid "Aktionen"
+msgstr ""
+
+#: setting/systemnotification.cpp:197
+msgid "Play a sound:"
+msgstr ""
+
+#: setting/systemnotification.cpp:198
+msgid "Execute a program:"
+msgstr ""
+
+#: setting/systemnotification.cpp:199
+msgid "Log to event panel:"
+msgstr ""
+
+#: setting/systemnotification.cpp:200
+msgid "Show a message in a pop-up window:"
+msgstr ""
+
+#: setting/systemnotification.cpp:201
+msgid "Log to a file:"
+msgstr ""
+
+#: setting/systemnotification.cpp:205
+msgid "Animate system tray icon"
+msgstr ""
+
+#: setting/systemnotification.cpp:206
+msgid "Default timeout for pop-up messages"
+msgstr ""
+
+#: setting/systemnotification.cpp:207
+msgid "secs."
+msgstr ""
+
+#: setting/identitysetting.ui.h:31
+msgid "New Account"
+msgstr ""
+
+#: setting/identitysetting.ui.h:56 setting/identitysetting.ui.h:84
+#, c-format, ycp-format
+msgid "Edit Identity %1"
+msgstr ""
+
+#: setting/identitysetting.ui.h:61 setting/identitysetting.ui.h:127
+msgid "Standard"
+msgstr ""
+
+#: setting/systemnotification.ui.h:46
+msgid "Someone from your buddy list is now online"
+msgstr ""
+
+#: setting/systemnotification.ui.h:47
+msgid "Someone from your buddy list is now offline"
+msgstr ""
+
+#: setting/systemnotification.ui.h:48
+msgid "You have received a new e-mail"
+msgstr ""
+
+#: setting/systemnotification.ui.h:49
+msgid "You have received a new short message"
+msgstr ""
+
+#: setting/systemnotification.ui.h:50
+msgid "A new conversation has started"
+msgstr ""
+
+#: setting/systemnotification.ui.h:371
+msgid "Select sound file"
+msgstr ""
+
+#: setting/systemnotification.ui.h:400
+msgid "Select log path"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Ready."
+#~ msgstr "Llest"
+
+#, fuzzy
+#~ msgid "&Invite"
+#~ msgstr "Invitar usuari"
+
+#~ msgid "<center>Not connected with<br><b>MSN</b></center>"
+#~ msgstr "<center>No connectat amb<br><b>MSN</b></center>"
+
+#, fuzzy
+#~ msgid "<center>Connected to<br><b>MSN</b></center>"
+#~ msgstr "<center>No connectat amb<br><b>MSN</b></center>"
+
+#, fuzzy
+#~ msgid "<center>Current status :<br><b>Online</b><center>"
+#~ msgstr "<center>No connectat amb<br><b>MSN</b></center>"
+
+#, fuzzy
+#~ msgid "<center>Current status :<br><b>Busy</b><center>"
+#~ msgstr "<center>No connectat amb<br><b>MSN</b></center>"
+
+#, fuzzy
+#~ msgid "<center>Current status :<br><b>Invisible</b><center>"
+#~ msgstr "<center>No connectat amb<br><b>MSN</b></center>"
